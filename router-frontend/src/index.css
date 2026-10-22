@@ -1,0 +1,23 @@
+* {
+    font-family: 'Sankofa Display', sans-serif;
+}
+
+body {
+    color: #BFD7EA;
+}
+
+table {
+    border-collapse: collapse;
+    width: "100%";
+}
+
+th, td {
+    border: 1px solid #BDF7EA;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+@keyframes spin0 { from { transform: scale(1.2) rotate(0deg); } to { transform: scale(1.2) rotate(90deg); }}
+@keyframes spin1 { from { transform: scale(1.2) rotate(90deg); } to { transform: scale(1.2) rotate(180deg); }}
+@keyframes spin2 { from { transform: scale(1.2) rotate(180deg); } to { transform: scale(1.2) rotate(270deg); }}
+@keyframes spin3 { from { transform: scale(1.2) rotate(270deg); } to { transform: scale(1.2) rotate(360deg); }}
